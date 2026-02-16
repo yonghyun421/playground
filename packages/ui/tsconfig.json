@@ -1,0 +1,7 @@
+{
+  "extends": "@playground/typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src", "vitest.setup.ts"]
+}

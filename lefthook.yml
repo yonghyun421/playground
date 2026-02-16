@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: lint
+      run: npx turbo lint
+    - name: typecheck
+      run: npx turbo typecheck

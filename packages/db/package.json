@@ -1,0 +1,28 @@
+{
+  "name": "@playground/db",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "drizzle-orm": "catalog:",
+    "better-sqlite3": "catalog:"
+  },
+  "devDependencies": {
+    "@playground/eslint-config": "workspace:*",
+    "@playground/typescript-config": "workspace:*",
+    "@types/better-sqlite3": "catalog:",
+    "drizzle-kit": "catalog:",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}
