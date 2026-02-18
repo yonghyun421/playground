@@ -13,15 +13,16 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "nanoid": "^5.1.6",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@playground/eslint-config": "workspace:*",
     "@playground/typescript-config": "workspace:*",
     "@playground/vitest-config": "workspace:*",
+    "@vitest/coverage-v8": "catalog:",
     "eslint": "catalog:",
     "typescript": "catalog:",
-    "vitest": "catalog:",
-    "@vitest/coverage-v8": "catalog:"
+    "vitest": "catalog:"
   }
 }

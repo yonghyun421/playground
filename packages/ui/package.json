@@ -13,6 +13,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "framer-motion": "^12.34.1",
     "react": "catalog:",
     "react-dom": "catalog:"
   },
@@ -20,14 +21,15 @@
     "@playground/eslint-config": "workspace:*",
     "@playground/typescript-config": "workspace:*",
     "@playground/vitest-config": "workspace:*",
+    "@testing-library/jest-dom": "catalog:",
+    "@testing-library/react": "catalog:",
+    "@testing-library/user-event": "^14.6.1",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
-    "@testing-library/react": "catalog:",
-    "@testing-library/jest-dom": "catalog:",
-    "jsdom": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
     "eslint": "catalog:",
+    "jsdom": "catalog:",
     "typescript": "catalog:",
-    "vitest": "catalog:",
-    "@vitest/coverage-v8": "catalog:"
+    "vitest": "catalog:"
   }
 }
